@@ -3,9 +3,10 @@ body {
     padding: 0px;
 }
 
-.table2
+.table2 tr
 {
     padding-bottom: 20px;
+    display: block;
 }
 
 .box1
@@ -42,7 +43,7 @@ body {
 .td_image_width
 {
     width: 570px;
-    height: 400px;
+    display: block;
 }
 
 .textstyle
