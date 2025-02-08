@@ -1,0 +1,92 @@
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #999;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #bdbbbb;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    top: 120%;
+    left: 5%;
+    border-radius: 0px; 
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #888;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Content Section Styling */
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 0px;
+    
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
